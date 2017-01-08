@@ -1,0 +1,52 @@
+/*.main-content {
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+}*/
+
+.artist-header {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #333;
+}
+
+.genres {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+.artist-background {
+  width: 100%;
+  position: fixed;
+  top: -80px;
+  z-index: 1;
+  filter: blur(5px);
+  filter: grayscale(1);
+}
+
+.content {
+  position: relative;
+  z-index: 999  ;
+}
+
+.artist-albums .well {
+  margin-bottom: 20px;
+  overflow: auto;
+  min-height: 400px;
+}
+
+.album {
+  text-align: center;
+  background: rgba(33, 33, 33, 0.28);
+  padding: 10px 20px;
+  border: #666 1px solid;
+}
+
+.album-thumb {
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+  float: left;
+}
